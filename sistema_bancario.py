@@ -33,7 +33,7 @@ while True:
             numero_saque += 1
             extrato.append(valor_saque)
     elif opcao == 'E':
-        print(extrato)
+        print(f'Extrato detalhado: {extrato}')
     else:
         print('Sistema encerrado.')
         break
